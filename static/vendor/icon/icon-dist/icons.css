@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?e2c9310dea6b57e098efa7d109a2f149?#iefix") format("embedded-opentype"),
+url("./icons.woff2?e2c9310dea6b57e098efa7d109a2f149") format("woff2"),
+url("./icons.woff?e2c9310dea6b57e098efa7d109a2f149") format("woff"),
+url("./icons.ttf?e2c9310dea6b57e098efa7d109a2f149") format("truetype"),
+url("./icons.svg?e2c9310dea6b57e098efa7d109a2f149#icons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    vertical-align: top;
+}
+
+.icons-android-compass:before {
+    content: "\f101";
+}
+.icons-ios-cart-outline:before {
+    content: "\f102";
+}
+.icons-ios-cart:before {
+    content: "\f103";
+}
+.icons-ios-pricetags-outline:before {
+    content: "\f104";
+}
+.icons-paper-airplane:before {
+    content: "\f105";
+}
+.icons-printer:before {
+    content: "\f106";
+}
+.icons-social-instagram:before {
+    content: "\f107";
+}
+.icons-swimming:before {
+    content: "\f108";
+}
+.icons-time-left:before {
+    content: "\f109";
+}
+.icons-wallet:before {
+    content: "\f10a";
+}
